@@ -26,7 +26,7 @@ const pokémon = Object.freeze([
 
 // an array of pokémon objects where the id is evenly divisible by 3
 const pkmnIds = pokémon.filter( p => p.id%3==0 );
-console.log(pkmnIds);
+console.table(pkmnIds);
 
 // an array of pokémon objects that are "fire" type
 const pkmnIds2 = pokémon.filter( p => p.types[0]=="fire" );
