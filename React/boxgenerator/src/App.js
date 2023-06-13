@@ -8,18 +8,15 @@ function App() {
   // const [color, setColor] = useState("");  
   const [colorArr, setColorArr] = useState([]);
 
-
   const youveGotColor = ( newMessage ) => {
     // setColor( newMessage );
     setColorArr(newMessage);
     // console.log("I am in the parent", newMessage);
 }
-
   return (
     <div className="App">
       <FormInputs addColor ={youveGotColor}/>
       <DisplayBoxes sendColor ={colorArr}/> 
-
     </div>
   );
 }

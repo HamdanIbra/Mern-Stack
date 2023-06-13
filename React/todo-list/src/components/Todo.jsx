@@ -52,14 +52,8 @@ const Todo = () => {
                                     Delete
                                 </button>
                             ) : null}
-
-
-
-
                         </li>
-
                     ))}
-
                 </ul>
             </div>
         </div>

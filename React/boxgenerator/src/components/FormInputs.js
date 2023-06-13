@@ -15,10 +15,8 @@ function FormInputs(props) {
     // console.log("this is what I got from the form" , color);
   };
 
-
   const addElement = () => {
-    const newArray = [...myArray,[color,dim]];
-    setMyArray(newArray);
+    setMyArray([...myArray,[color,dim]]);
   };
 
   return (
